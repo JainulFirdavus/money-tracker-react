@@ -30,13 +30,14 @@ body {
 }
 main{
   width: 100%;
-  padding: 20px;
+  /* padding: 20px; */
 }
 .sidebar{
 background: #09090c;
 color: #a4b2bc;
 height: 100vh;
 width: 300px;
+transition:all 0.5s;
 }
 .top_section{
   display: flex;
@@ -51,7 +52,7 @@ width: 300px;
 .bars{
   font-size: 25px;
   display: flex;
-  margin-left:150px
+  /* margin-left:150px */
 
 }
 
@@ -76,3 +77,15 @@ background-color: #197ec6;
 .icon,.link_text{
   font-size: 20px;
 }
+
+.NavBar{
+  background-color: #09090c;
+  color: #fff;
+  display: flex;
+  width: 100%;
+  justify-content:space-between
+}
+
+.profile{
+  float: right;
+} 
